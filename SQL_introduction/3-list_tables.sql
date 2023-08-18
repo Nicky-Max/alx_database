@@ -1,6 +1,24 @@
--- listing of tables in mysql database
+-- listing of tables in database
 
-CREATE SCHEMA IF NOT EXISTS mysql;
 
-USE mysql;
-SHOW TABLES;
+
+-- Check if the database name is provided as an argument
+IF [ $# -ne 1 ]; THEN
+    echo "Usage: $0 <database_name>"
+    exit 1
+FI
+
+-- Capture the provided database name
+database_name=$1
+
+
+
+-- Query to list all tables in the specified database
+SHOW TABLES FROM $database_name;
+
+
+
+
+
+
+
