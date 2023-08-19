@@ -1,6 +1,4 @@
 -- creates a table with columns
 
-USE $1
-
-CREATE TABLE first_table(
+CREATE TABLE IF NOT EXISTS first_table(
     id INT, name VARCHAR(256));
