@@ -1,3 +1,3 @@
--- describes the table
+-- describes the table fully
 
-SHOW CREATE TABLE firts_table;
+SHOW CREATE TABLE first_table;
