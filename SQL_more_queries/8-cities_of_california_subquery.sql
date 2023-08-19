@@ -1,5 +1,5 @@
 --  lists all the cities of California that can be found in the database hbtn_0d_usa
-USE hbtn_0d_usa;
+
 -- inserting values to the states table
 INSERT INTO states (id, name) VALUES (1, "California"),(2, "Arizona"),(3, "Texas"),(4, "Utah");
 -- inserting values to the cities table
