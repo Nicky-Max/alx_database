@@ -1,3 +1,3 @@
 -- describes the table
 
-SELECT * FROM first_table;
+SHOW CREATE TABLE firts_table;
